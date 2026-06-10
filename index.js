@@ -4,7 +4,7 @@ const bot = new Telegraf('8996142007:AAHx1NhnirVOBHo-xP2GTGoz5CuzJl5mrDY');
 
 bot.start((ctx) => {
   ctx.replyWithAnimation(
-    'https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif',
+    { source: './omaygad-mellstroy.gif' }, // 👈 ВАЖНО
     {
       caption: 'Что там ДИ 👋 Пашалим?!',
       reply_markup: {
@@ -13,7 +13,7 @@ bot.start((ctx) => {
             {
               text: 'Жми на меня!',
               web_app: {
-                url: 'https://roothat-admin.github.io/good_exam/'
+                url: 'https://roothat-admin.github.io/exam-bot/'
               }
             }
           ]
