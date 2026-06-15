@@ -16,7 +16,7 @@ bot.start((ctx) => {
   ctx.replyWithAnimation(
     { source: './omaygad-mellstroy.gif' },
     {
-      caption: 'Что там ДИ 👋 Пашалим?!',
+      caption: 'Working Bro WORDS!?!',
       reply_markup: {
         inline_keyboard: [
           [
