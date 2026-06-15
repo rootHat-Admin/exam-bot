@@ -14,7 +14,7 @@ const bot = new Telegraf(process.env.BOT_TOKEN);
 // START с GIF + кнопкой
 bot.start((ctx) => {
   ctx.replyWithAnimation(
-    { source: './omaygad-mellstroy.gif' }, // файл должен быть в репо
+    { source: './omaygad-mellstroy.gif' },
     {
       caption: 'Что там ДИ 👋 Пашалим?!',
       reply_markup: {
@@ -23,7 +23,7 @@ bot.start((ctx) => {
             {
               text: 'Жми на меня 🚀',
               web_app: {
-                url: 'https://roothat-admin.github.io/good_exam/'
+                url: 'https://effervescent-eclair-dbd8bc.netlify.app/'
               }
             }
           ]
