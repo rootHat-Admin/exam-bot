@@ -14,7 +14,7 @@ const bot = new Telegraf(process.env.BOT_TOKEN);
 // START с GIF + кнопкой
 bot.start((ctx) => {
   ctx.replyWithAnimation(
-    { source: './omaygad-mellstroy.gif' },
+    { source: './english.jpg' },
     {
       caption: 'Working Bro WORDS!?!',
       reply_markup: {
